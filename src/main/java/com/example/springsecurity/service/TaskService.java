@@ -1,0 +1,1 @@
+package com.example.springsecurity.service;import com.example.springsecurity.Entity.Task;import java.util.List;public interface TaskService {    public List<Task> getTask();    public Task createTask(Task task);    public Task updateTask(Task task, Long id);    public void deleteTask (Long id);}

@@ -1,0 +1,1 @@
+package com.example.springsecurity.repository;import com.example.springsecurity.Entity.Task;import org.springframework.data.jpa.repository.JpaRepository;public interface TaskRepository extends JpaRepository<Task, Long> {}
